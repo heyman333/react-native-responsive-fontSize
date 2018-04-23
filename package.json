@@ -1,0 +1,30 @@
+{
+  "name": "react-native-responsive-fontSize",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyman333/react-native-responsive-fontSize"
+  },
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "react-component",
+    "ios",
+    "android",
+    "react",
+    "font",
+    "fontSize",
+    "font-size"
+  ],
+  "author": "youngsoohan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heyman333/react-native-responsive-fontSize/issues"
+  },
+  "homepage": "https://github.com/heyman333/react-native-responsive-fontSize/blob/master/README.md"
+}
