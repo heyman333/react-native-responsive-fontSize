@@ -9,7 +9,26 @@
 
 #### Usage 
 ```js
-import RF from "react-native-responsive-fontSize
+import RF from "react-native-responsive-fontSize"
 
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#F5FCFF"
+  },
+  welcome: {
+    fontSize: RF(3.5),
+    textAlign: "center",
+    margin: 10
+  },
+  instructions: {
+    textAlign: "center",
+    color: "#333333",
+    marginBottom: 5,
+    fontSize: RF(2.5)
+  }
+})
 
 ```
