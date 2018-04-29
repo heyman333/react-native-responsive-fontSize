@@ -7,7 +7,7 @@
 
 ### This is simple method for reponsive font size 
 
-#### How it looks on diffetent device sizes
+#### How it looks on different device sizes
 
 | iPhone SE     | iPhone X      |
 |:-------------:|:-------------:|
@@ -18,12 +18,6 @@
 import RF from "react-native-responsive-fontSize"
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-    backgroundColor: "#F5FCFF"
-  },
   welcome: {
     fontSize: RF(3.5),
     textAlign: "center",
