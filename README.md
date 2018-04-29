@@ -7,6 +7,10 @@
 
 ### This is simple method for reponsive font size 
 
+#### How to install 
+`yarn add react-native-responsive-fontsize`   
+`npm install react-native-responsive-fontsize --save`
+
 #### How it looks on different device sizes
 
 | iPhone SE     | iPhone X      |
