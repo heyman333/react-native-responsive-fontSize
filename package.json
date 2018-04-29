@@ -1,5 +1,5 @@
 {
-  "name": "react-native-responsive-fontSize",
+  "name": "react-native-responsive-fontsize",
   "version": "0.1.0",
   "main": "index.js",
   "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heyman333/react-native-responsive-fontSize"
+    "url": "git+https://github.com/heyman333/react-native-responsive-fontsize"
   },
   "keywords": [
     "react-native",
@@ -24,10 +24,10 @@
   "author": "youngsoohan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/heyman333/react-native-responsive-fontSize/issues"
+    "url": "https://github.com/heyman333/react-native-responsive-fontsize/issues"
   },
   "dependencies": {
     "react-native-iphone-x-helper": "^1.0.2"
   },
-  "homepage": "https://github.com/heyman333/react-native-responsive-fontSize/blob/master/README.md"
+  "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md"
 }
