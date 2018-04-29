@@ -1,4 +1,4 @@
-## react-native-responsive-fontSize
+## react-native-responsive-fontsize
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/heyman333/react-native-responsive-fontSize/pulls)
 [![Platform](https://img.shields.io/badge/platform-react--native-lightgrey.svg)](http://facebook.github.io/react-native/)
@@ -15,7 +15,7 @@
 
 #### Usage 
 ```js
-import RF from "react-native-responsive-fontSize"
+import RF from "react-native-responsive-fontsize"
 
 const styles = StyleSheet.create({
   welcome: {
