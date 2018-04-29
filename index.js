@@ -5,7 +5,7 @@ const { height, width } = Dimensions.get("window")
 
 export default function RF(percent) {
   const deviceHeight = isIphoneX()
-    ? width.getHeight() * 0.85
+    ? height * 0.9
     : Platform.OS === "android" ? height - StatusBar.currentHeight : height
 
   const heightPercent = percent * deviceHeight / 100
