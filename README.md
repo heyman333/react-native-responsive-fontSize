@@ -5,7 +5,13 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-native-responsive-fontSize/blob/master/LICENSE)
 
 
-#### This is simple method for reponsive font size 
+### This is simple method for reponsive font size 
+
+#### How it looks on diffetent device sizes
+
+| iPhone SE     | iPhone X      |
+|:-------------:|:-------------:|
+| <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/SE.png" width="320" height="568">| <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/X.png" width="385" height="812"> |
 
 #### Usage 
 ```js
