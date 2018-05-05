@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-native-responsive-fontSize/blob/master/LICENSE)
 
 
-### This is simple method for reponsive font size 
+### This is simple method for responsive font size 
 
 #### How to install 
 `yarn add react-native-responsive-fontsize`   
