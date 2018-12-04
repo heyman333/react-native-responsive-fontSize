@@ -1,13 +1,15 @@
-import { isIphoneX } from "react-native-iphone-x-helper"
-import { Platform, StatusBar, Dimensions } from "react-native"
+import { isIphoneX } from "react-native-iphone-x-helper";
+import { Platform, StatusBar, Dimensions } from "react-native";
 
-const { height, width } = Dimensions.get("window")
+const { height } = Dimensions.get("window");
 
 export default function RF(percent) {
   const deviceHeight = isIphoneX()
-    ? height * 0.9
-    : Platform.OS === "android" ? height - StatusBar.currentHeight : height
+    ? height - 78 // iPhone X style SafeArea view size in portrait
+    : Platform.OS === "android"
+    ? height - StatusBar.currentHeight
+    : height;
 
-  const heightPercent = percent * deviceHeight / 100
-  return Math.round(heightPercent)
+  const heightPercent = (percent * deviceHeight) / 100;
+  return Math.round(heightPercent);
 }
