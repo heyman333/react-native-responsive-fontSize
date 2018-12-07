@@ -12,7 +12,7 @@ jobs:
       - image: circleci/node:10
     steps:
       - run: yarn install
-  prettier:
+  step1:
     docker:
       - image: circleci/node:10
     steps:
@@ -23,4 +23,4 @@ workflows:
     jobs:
       - build
       - pre-install
-      - prettier
+      - step1
