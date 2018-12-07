@@ -10,6 +10,6 @@ export default function RF(percent: number) {
     ? height - StatusBar.currentHeight!
     : height;
 
-  const heightPercent = (percent * deviceHeight)/100;
+  const heightPercent = (percent * deviceHeight) / 100;
   return Math.round(heightPercent);
 }
