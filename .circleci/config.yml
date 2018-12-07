@@ -1,30 +1,3 @@
-# version: 2
-# jobs:
-#   build:
-#     working_directory: ~/repo
-#     docker:
-#       - image: circleci/node:10
-#     steps:
-#       - checkout
-#       - run: ls -al
-#   pre-install:
-#     docker:
-#       - image: circleci/node:10
-#     steps:
-#       - run: yarn install
-#   step1:
-#     docker:
-#       - image: circleci/node:10
-#     steps:
-#       - run: yarn prettier
-# workflows:
-#   version: 2
-#   build_and_test:
-#     jobs:
-#       - build
-#       - pre-install
-#       - step1
-
 version: 2
 jobs:
   build:
