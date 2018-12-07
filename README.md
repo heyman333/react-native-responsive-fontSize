@@ -9,6 +9,7 @@
 
 #### How to install 
 `yarn add react-native-responsive-fontsize`   
+or   
 `npm install react-native-responsive-fontsize --save`
 
 #### How it looks on different device sizes
