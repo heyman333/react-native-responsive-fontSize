@@ -1,7 +1,7 @@
 {
   "name": "react-native-responsive-fontsize",
-  "version": "0.1.4",
-  "main": "index.js",
+  "version": "0.1.5",
+  "main": "index.ts",
   "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
