@@ -4,7 +4,8 @@
   "main": "index.ts",
   "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "node_modules/prettier/bin-prettier.js prettier --config .prettierrc ./index.ts -l"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
   "dependencies": {
     "react-native-iphone-x-helper": "^1.0.2"
   },
-  "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md"
+  "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md",
+  "devDependencies": {
+    "prettier": "1.15.3"
+  }
 }

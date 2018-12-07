@@ -1,0 +1,7 @@
+vsersion: 2
+dependencies:
+  override:
+    - yarn add prettier --dev
+test:
+  override:
+    - yarn prettier
