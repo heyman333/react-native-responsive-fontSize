@@ -1,7 +1,25 @@
-vsersion: 2
-dependencies:
-  override:
-    - yarn add prettier --dev
+version: 2
+
 jobs:
- test:
-    - yarn prettier
+  install-dependencies:
+    steps:
+      - checkout
+      - attach_workspace:
+          at: ~/project
+      - run: |
+          yarn install
+  lint-and-flow:
+      steps:
+        - attach_workspace:
+            at: ~/project
+        - run: |
+            yarn prettier
+
+workflows:
+  version: 2
+  build-and-test:
+    jobs:
+      - install-dependencies
+      - lint-and-flow:
+          requires:
+            - install-dependencies
