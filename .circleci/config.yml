@@ -1,7 +1,13 @@
 version: 2
 
+defaults: &defaults
+  docker:
+    - image: circleci/node:10
+  working_directory: ~/project
+
 jobs:
   install-dependencies:
+    <<: *defaults
     steps:
       - checkout
       - attach_workspace:
@@ -9,6 +15,7 @@ jobs:
       - run: |
           yarn install
   lint-and-flow:
+    <<: *defaults
       steps:
         - attach_workspace:
             at: ~/project
@@ -17,6 +24,7 @@ jobs:
 
 workflows:
   version: 2
+
   build-and-test:
     jobs:
       - install-dependencies
