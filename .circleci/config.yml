@@ -8,9 +8,13 @@ jobs:
       - checkout
       - run: ls -al
   pre-install:
+    docker:
+      - image: circleci/node:10
     steps:
       - run: yarn install
   prettier:
+    docker:
+      - image: circleci/node:10
     steps:
       - run: yarn prettier
 workflows:
