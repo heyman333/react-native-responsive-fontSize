@@ -35,5 +35,5 @@ jobs:
     working_directory: ~/repo
     steps:
       - checkout
-      - run: yarb install
+      - run: yarn install
       - run: yarn prettier
