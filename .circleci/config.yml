@@ -2,6 +2,6 @@ vsersion: 2
 dependencies:
   override:
     - yarn add prettier --dev
-test:
-  override:
+jobs:
+ test:
     - yarn prettier
