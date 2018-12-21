@@ -1,11 +1,11 @@
 {
   "name": "react-native-responsive-fontsize",
   "version": "0.1.6",
-  "main": "index.ts",
+  "main": "index.js",
   "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prettier": "node_modules/prettier/bin-prettier.js prettier --config .prettierrc ./index.ts -l"
+    "prettier": "node_modules/prettier/bin-prettier.js prettier --config .prettierrc ./index.js -l"
   },
   "repository": {
     "type": "git",
