@@ -4,36 +4,40 @@
 [![Platform](https://img.shields.io/badge/platform-react--native-lightgrey.svg)](http://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-native-responsive-fontSize/blob/master/LICENSE)
 
+<strong>Use this library if you have a small problem with the font size 🎉</strong>
 
-### This is simple method for responsive font size</br>Basically it depends on device height 
+<hr />
 
-#### How to install 
-`yarn add react-native-responsive-fontsize`   
-or   
-`npm install react-native-responsive-fontsize --save`
+#### How to install
+
+```shell
+yarn add react-native-responsive-fontsize
+# or
+npm install react-native-responsive-fontsize --save
+```
 
 #### How it looks on different device sizes
 
-| iPhone SE     | iPhone X      |
-|:-------------:|:-------------:|
-| <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/SE.png" width="320" height="568">| <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/X.png" width="385" height="812"> |
+|                                                               iPhone SE                                                                |                                                               iPhone X                                                                |
+| :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/SE.png" width="320" height="568"> | <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/X.png" width="385" height="812"> |
 
-#### Usage 
+#### Usage
+
 ```js
-import RF from "react-native-responsive-fontsize"
+import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
 const styles = StyleSheet.create({
   welcome: {
-    fontSize: RF(3.5),
+    fontSize: RFValue(24),
     textAlign: "center",
-    margin: 10
+    margin: 10,
   },
   instructions: {
     textAlign: "center",
     color: "#333333",
     marginBottom: 5,
-    fontSize: RF(2.5)
-  }
-})
-
+    fontSize: RFPercentage(5),
+  },
+});
 ```
