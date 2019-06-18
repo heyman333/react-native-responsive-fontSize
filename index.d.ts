@@ -1,3 +1,4 @@
-declare function RF(percent: number): number;
+declare function RFPercentage(percent: number): number;
+declare function RFValue(percent: number): number;
 
-export default RF;
+export { RFPercentage, RFValue };
