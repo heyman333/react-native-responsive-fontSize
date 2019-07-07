@@ -18,6 +18,5 @@ export function RFValue(fontSize) {
   // guideline height for standard 5" device screen
   const standardScreenHeight = 680;
   const heightPercent = (fontSize * deviceHeight) / standardScreenHeight;
-  console.log(heightPercent);
   return Math.round(heightPercent);
 }
