@@ -6,6 +6,8 @@
 
 <strong>Use this library if you have a small problem with the font size 🎉</strong>
 
+<img src="images/main.png" alt="main image">
+
 <hr />
 
 #### How to install
@@ -41,3 +43,8 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+#### Load map (I'm waiting for your help)
+
+- [ ] support landscape mode
+- [ ] make `test code`
