@@ -1,6 +1,6 @@
 {
   "name": "react-native-responsive-fontsize",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "index.js",
   "typings": "index.d.ts",
   "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
