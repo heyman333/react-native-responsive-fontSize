@@ -1,12 +1,12 @@
-## react-native-responsive-fontsize
+<img src="images/main.png" alt="main image">
+
+# react-native-responsive-fontsize
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/heyman333/react-native-responsive-fontSize/pulls)
 [![Platform](https://img.shields.io/badge/platform-react--native-lightgrey.svg)](http://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-native-responsive-fontSize/blob/master/LICENSE)
 
 <strong>Use this library if you have a small problem with the font size 🎉</strong>
-
-<img src="images/main.png" alt="main image">
 
 <hr />
 
@@ -24,6 +24,13 @@ npm install react-native-responsive-fontsize --save
 | :------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------: |
 | <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/SE.png" width="320" height="568"> | <img src="https://raw.githubusercontent.com/heyman333/react-native-responsive-fontSize/master/images/X.png" width="385" height="812"> |
 
+#### Methods
+
+|              |                  arguments                   |                                Description                                 |
+| :----------: | :------------------------------------------: | :------------------------------------------------------------------------: |
+| RFPercentage |               percent: number                |  The font size is calculated as a percentage of the height of the device.  |
+|   RFValue    | value: number, standardScreenHeight?: number | The font size is determined based on standardScreenHeight and passed value |
+
 #### Usage
 
 ```js
@@ -31,7 +38,7 @@ import { RFPercentage, RFValue } from "react-native-responsive-fontsize";
 
 const styles = StyleSheet.create({
   welcome: {
-    fontSize: RFValue(24),
+    fontSize: RFValue(24, 580) // second argument is standardScreenHeight(optional),
     textAlign: "center",
     margin: 10,
   },
@@ -43,6 +50,10 @@ const styles = StyleSheet.create({
   },
 });
 ```
+
+#### Changelog
+
+[releases](https://github.com/heyman333/react-native-responsive-fontSize/releases)
 
 #### Load map (I'm waiting for your help)
 
