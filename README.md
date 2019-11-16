@@ -5,12 +5,12 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](https://github.com/heyman333/react-native-responsive-fontSize/pulls)
 [![Platform](https://img.shields.io/badge/platform-react--native-lightgrey.svg)](http://facebook.github.io/react-native/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/heyman333/react-native-responsive-fontSize/blob/master/LICENSE)
-  <a href="https://www.npmjs.com/package/react-native-responsive-fontsize">
-    <img alt="npm version" src="http://img.shields.io/npm/v/react-native-responsive-fontsize.svg?style=flat-square">
-  </a>
-  <a href="https://www.npmjs.com/package/react-native-responsive-fontsize">
-    <img src="http://img.shields.io/npm/dm/react-native-responsive-fontsize.svg?style=flat-square">
-  </a>
+<a href="https://www.npmjs.com/package/react-native-responsive-fontsize">
+<img alt="npm version" src="http://img.shields.io/npm/v/react-native-responsive-fontsize.svg?style=flat-square">
+</a>
+<a href="https://www.npmjs.com/package/react-native-responsive-fontsize">
+<img src="http://img.shields.io/npm/dm/react-native-responsive-fontsize.svg?style=flat-square">
+</a>
 
 <strong>Use this library if you have a small problem with the font size 🎉</strong>
 
@@ -32,10 +32,10 @@ npm install react-native-responsive-fontsize --save
 
 #### Methods
 
-|              |                  arguments                   |                                                   Description                                                    |
-| :----------: | :------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
-| RFPercentage |               percent: number                |                     The font size is calculated as a percentage of the height of the device.                     |
-|   RFValue    | value: number, standardScreenHeight?: number | The font size is determined based on standardScreenHeight and passed value (default standardScreenHeight is 680) |
+|              |                  arguments                   |                                                                              Description                                                                               |
+| :----------: | :------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| RFPercentage |               percent: number                |                                                The font size is calculated as a percentage of the height of the device.                                                |
+|   RFValue    | value: number, standardScreenHeight?: number | The font size is calculated based on standardScreenHeight and passed value ※ `default standardScreenHeight is 680` ※ `In landscape mode, please pass the screen width` |
 
 #### Usage
 
@@ -63,5 +63,5 @@ const styles = StyleSheet.create({
 
 #### Load map (I'm waiting for your help)
 
-- [ ] support landscape mode
+- [x] support landscape mode
 - [ ] make `test code`
