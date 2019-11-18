@@ -32,10 +32,14 @@ npm install react-native-responsive-fontsize --save
 
 #### Methods
 
-|              |                  arguments                   |                                                                              Description                                                                               |
-| :----------: | :------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| RFPercentage |               percent: number                |                                                The font size is calculated as a percentage of the height of the device.                                                |
-|   RFValue    | value: number, standardScreenHeight?: number | The font size is calculated based on standardScreenHeight and passed value ※ `default standardScreenHeight is 680` ※ `In landscape mode, please pass the screen width` |
+|              |                  arguments                   | Description                                                                                         |
+| :----------: | :------------------------------------------: | --------------------------------------------------------------------------------------------------- |
+| RFPercentage |               percent: number                | The font size is calculated as a percentage of the height(`width` in landscape mode) of the device. |
+|   RFValue    | value: number, standardScreenHeight?: number | The font size is calculated based on standardScreenHeight and passed value                          |
+
+- when using `RFValue`'s `standardScreenHeight`
+  - default standardScreenHeight is `680`
+  - In landscape mode, please pass the `screen width`
 
 #### Usage
 
