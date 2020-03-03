@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md",
   "devDependencies": {
-    "prettier": "1.15.3"
+    "prettier": "1.19.1"
   }
 }
