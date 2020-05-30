@@ -16,7 +16,7 @@
     "react-native-responsive-fontsize": "file:../"
   },
   "devDependencies": {
-    "@babel/core": "^7.6.4",
+    "@babel/core": "^7.10.2",
     "@babel/runtime": "^7.6.3",
     "@react-native-community/eslint-config": "^0.0.7",
     "babel-jest": "^25.1.0",
