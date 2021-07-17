@@ -68,4 +68,4 @@ const styles = StyleSheet.create({
 #### Load map (I'm waiting for your help)
 
 - [x] support landscape mode
-- [ ] make `test code`
+- [x] make `test code`
