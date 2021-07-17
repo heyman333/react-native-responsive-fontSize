@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1626519399800" clover="3.2.0">
-  <project timestamp="1626519399800" name="All files">
+<coverage generated="1626521255412" clover="3.2.0">
+  <project timestamp="1626521255412" name="All files">
     <metrics statements="12" coveredstatements="12" conditionals="21" coveredconditionals="21" methods="2" coveredmethods="2" elements="35" coveredelements="35" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
     <file name="index.js" path="/Users/han-yeongsu/react-native-responsive-fontSize/index.js">
       <metrics statements="12" coveredstatements="12" conditionals="21" coveredconditionals="21" methods="2" coveredmethods="2"/>
