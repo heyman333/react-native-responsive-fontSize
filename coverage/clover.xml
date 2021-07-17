@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1626519399800" clover="3.2.0">
+  <project timestamp="1626519399800" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="21" coveredconditionals="21" methods="2" coveredmethods="2" elements="35" coveredelements="35" complexity="0" loc="12" ncloc="12" packages="1" files="1" classes="1"/>
+    <file name="index.js" path="/Users/han-yeongsu/react-native-responsive-fontSize/index.js">
+      <metrics statements="12" coveredstatements="12" conditionals="21" coveredconditionals="21" methods="2" coveredmethods="2"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="11" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+      <line num="21" count="4" type="stmt"/>
+      <line num="22" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="27" count="4" type="cond" truecount="4" falsecount="0"/>
+      <line num="31" count="4" type="stmt"/>
+      <line num="32" count="4" type="stmt"/>
+    </file>
+  </project>
+</coverage>

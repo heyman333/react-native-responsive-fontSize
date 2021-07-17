@@ -5,7 +5,7 @@
   "typings": "index.d.ts",
   "description": "Simple method for resposive fontSize based on screen-size of the device in React-Native",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "yarn jest __tests__/index.test.js --coverage",
     "prettier": "prettier --config .prettierrc --write index.js index.d.ts"
   },
   "repository": {
@@ -33,7 +33,10 @@
   },
   "homepage": "https://github.com/heyman333/react-native-responsive-fontsize/blob/master/README.md",
   "devDependencies": {
-    "prettier": "2.0.5"
+    "jest": "^27.0.6",
+    "metro-react-native-babel-preset": "^0.66.1",
+    "prettier": "2.0.5",
+    "react-native": "^0.64.2"
   },
   "peerDependencies": {
     "react-native": ">=0.42.0"
